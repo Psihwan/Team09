@@ -1,0 +1,8 @@
+requests  
+pandas  
+playwright  
+openpyxl  
+
+
+pip install requests pandas openpyxl playwright  
+playwright install chromium
