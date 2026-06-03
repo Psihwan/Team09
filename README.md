@@ -15,9 +15,15 @@ playwright install chromium #playwright 설치, 네이버 지도 크롤링 시 �
 
 restaurant_collector.py 파일 상단의 API_KEY 값을 본인의 카카오 REST API 키로 교체  
 
+map.py 실행  
+`부산대_주변_음식점_목록_최종_수정본.xlsx` 필수적으로 필요  
+```bash
+streamlit run map.py
+```
+
 [사용 라이브러리]  
 pandas  
 playwright  
 requests  
-
+등  
 상세 내용은 requirements.txt 참고
